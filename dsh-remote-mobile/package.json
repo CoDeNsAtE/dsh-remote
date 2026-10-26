@@ -1,0 +1,55 @@
+{
+  "name": "@dsh-external/dsh-remote-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mobile remote-control gateway for DeepSeek Harness: an authenticated in-process WebSocket endpoint for the DSH Remote HarmonyOS app.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "client",
+    "vendor",
+    "locale",
+    "docs",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dependencies": {},
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "mobile",
+    "websocket",
+    "remote-control"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "manifestVersion": 1,
+    "engines": {
+      "dsh": ">=0.1.0-rc.1 <0.3.0-0"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": false,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}

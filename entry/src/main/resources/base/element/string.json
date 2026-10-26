@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "DeepSeek Harness 远程控制台"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "远程连接并操控 DeepSeek Harness"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "DSH Remote"
+    }
+  ]
+}

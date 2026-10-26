@@ -1,0 +1,17 @@
+{
+  "name": "dsh-mobile-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "WebSocket bridge that exposes DeepSeek Harness (ACP) to the DSH Remote HarmonyOS app",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node dsh-mobile-bridge.mjs",
+    "selftest": "node selftest.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

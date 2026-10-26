@@ -1,0 +1,40 @@
+# ── HarmonyOS / DevEco Studio local state ──────────────────────────────
+/node_modules
+/bridge/node_modules
+/dsh-remote-mobile/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+
+# ── local caches / DSH tooling artifacts ───────────────────────────────
+/.cache/
+/.dsh-project-memory/
+/.research/
+/.dsh-runtime-src/
+/.plugin-manager/
+*.log
+*.zip
+
+# ── OS junk ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── secrets: never commit these ────────────────────────────────────────
+*.p12
+*.p7b
+*.cer
+*.jks
+*.keystore
+*.pem
+*.key
+.env
+.env.*

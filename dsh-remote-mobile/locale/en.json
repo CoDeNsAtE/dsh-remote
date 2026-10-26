@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSH Remote Mobile",
+    "description": "Authenticated WebSocket gateway that lets the DSH Remote phone app drive this Harness: shared sessions, streaming chat, model switching and tool approvals."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSH 手机远程网关",
+    "description": "带令牌鉴权的 WebSocket 网关，手机端 DSH Remote 可远程使用同一批会话、流式对话、模型切换与工具审批。"
+  }
+}

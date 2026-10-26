@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="DSH Remote Mobile">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16224A"/>
+      <stop offset="1" stop-color="#0A0C11"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C9CFF"/>
+      <stop offset="1" stop-color="#3B5BDB"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bg)"/>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="none" stroke="#2A3A6B" stroke-width="2"/>
+  <rect x="42" y="26" width="44" height="76" rx="10" fill="#0E1424" stroke="#3B4C7E" stroke-width="3"/>
+  <rect x="52" y="34" width="24" height="4" rx="2" fill="#3B4C7E"/>
+  <circle cx="64" cy="90" r="4" fill="#3B5BDB"/>
+  <path d="M32 58c0-8 6-14 14-14" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M24 58c0-13 10-23 23-23" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M96 58c0-8-6-14-14-14" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M104 58c0-13-10-23-23-23" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M50 52h28M50 62h20M50 72h24" stroke="#8FA2D8" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+</svg>

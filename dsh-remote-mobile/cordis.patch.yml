@@ -1,0 +1,15 @@
+# dsh-remote-mobile bundle patch.
+#
+# Inserts the gateway plugin row. Default-off on purpose: the gateway only
+# starts listening after the user enables it from Settings > Plugins or from
+# the plugin manager, and a token is generated on first enable.
+- insert:
+    - id: dsh-remote-mobile
+      name: '@dsh-external/dsh-remote-mobile'
+      config:
+        enabled: false
+        host: 0.0.0.0
+        port: 8787
+        path: /dsh
+        token: ''
+        workspace: ''
